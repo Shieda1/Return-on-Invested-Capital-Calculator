@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Return on Invested Capital Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="returnonInvestedCapitalRadio" name="variables" checked>
+  <label for="returnonInvestedCapitalRadio">Return on Invested Capital</label>
+
+  <input type="radio" id="netIncomeRadio" name="variables">
+  <label for="netIncomeRadio">Net Income</label>
+
+  <input type="radio" id="dividendsRadio" name="variables">
+  <label for="dividendsRadio">Dividends</label>
+
+  <input type="radio" id="totalCapitalRadio" name="variables">
+  <label for="totalCapitalRadio">Total Capital</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Net Income</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Dividends</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Total Capital</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
